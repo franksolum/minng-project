@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    font-size: 16px;
+    font-weight: 700;
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    color: black;
+    padding-left: 15px;
+
+}  
+.leftNavbar{
+    color: green;
+    font-size: 20px;
+}
+.navbar>
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 75px;
+
+}
+span{
+    margin: 10px;
+
+}
+.toggleBtn{
+    width: 30px;
+    display: none;
+    border: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .navMenu{
+        display: none;
+    
+    }
+    button{
+        display: none;
+    }
+    .toggleBtn{
+        display: flex;
+        margin-left: -150px;
+    }
+    #hidden{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        width: 100%;
+        height: 200px;
+    }
+    .rightNavbar .navMenu #hidden{
+        color: red;
+        display: flex;
+    }
+}
+@media only screen and (max-width: 768px){
+    span{
+        font-size: 12px;
+    }
+    .leftNavbar{
+        font-size: 14px;
+    }
+} 

@@ -1,0 +1,38 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px ;
+
+}
+.app>img{
+    width: 700px;
+    height: 90px;
+
+}
+img:hover{
+    cursor: pointer;
+}
+
+.terms{
+    padding-top:100px
+}
+.copyright>p{
+    padding-top: 30px;
+}
+.terms:hover{
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px){
+    .app>img{
+        width: 300px;
+        height: auto;
+    }
+}
+@media only screen and (min-width: 768px){
+    .app>img{
+        width: 500px;
+        height: auto;
+    }
+}
